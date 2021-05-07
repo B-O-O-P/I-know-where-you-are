@@ -1,9 +1,9 @@
 from transformers import BertModel
-from torch import bmm, nn
+from torch import nn
 
 class LET(nn.Module):
     def __init__(self):
-        super(BERT, self).__init__()
+        super(LET, self).__init__()
         # Base model
         self.model = BertModel.from_pretrained('bert-base-uncased', output_hidden_states = True, )
 
