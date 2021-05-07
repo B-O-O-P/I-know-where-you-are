@@ -1,9 +1,10 @@
 from transformers import BertModel
 from torch import bmm, nn
 
-class LPT(nn.Module):
+
+class LIT(nn.Module):
     def __init__(self, vocabulary_length, hidden_dim):
-        super(LPT, self).__init__()
+        super(LIT, self).__init__()
         # Base model
         self.model = BertModel.from_pretrained('bert-base-uncased')
 
