@@ -70,11 +70,11 @@ def extract_location(text, verbose=False):
 
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description="Extract location from raw text")
+    parser = argparse.ArgumentParser(description="Extract location from text")
 
     required = parser.add_mutually_exclusive_group(required=True)
     required.add_argument("-raw_text", help="required raw text to process")
-    not_required =  parser.add_mutually_exclusive_group()
+    not_required = parser.add_mutually_exclusive_group()
     not_required.add_argument("-verbose", help="pass True if you need log output")
 
     args = parser.parse_args()
