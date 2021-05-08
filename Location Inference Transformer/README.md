@@ -10,8 +10,10 @@ In order to use the model, you need to follow a few simple steps:
 
 * Get vocabulary dataset for transformer.
     * Download it from [Google.Drive](https://docs.google.com/spreadsheets/d/1UBSzcdvjovl9k8AdzBHGWjf1i4WHzAue2pKR2dDClUQ) or [Kaggle](https://www.kaggle.com/viacheslavshalamov/coco-locations/).
+    * Create `data` folder in root of repository and place downloaded dataset there
 * Get pre-trained on [COCO Dataset](https://cocodataset.org/#home) model:
     * Download it from [Google.Drive](https://drive.google.com/file/d/17rowfXfamLQTCZO-xaBRVCaV5N_YwZ4U)
+    * Create `models` folder in root of repository and place downloaded model there
 * Install the appropriate version of the [PyTorch](https://pytorch.org/get-started/locally/) library for your system. 
 * Install the remaining required dependencies using the command in root of repository:
     ```bash
