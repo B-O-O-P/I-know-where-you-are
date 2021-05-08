@@ -1,6 +1,6 @@
 # I Know Where You Are: Inferring Location From Text
 
-This repository describes the structure of the models in order to determine the most appropriate background from the text.
+This repository describes the structure of the models in order to determine the most appropriate location from the text.
 These models are described in detail in paper.
 
 ## Models
